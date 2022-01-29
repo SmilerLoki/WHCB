@@ -9,8 +9,14 @@
 	
 	<link rel="stylesheet" href="css/whcb.css" type="text/css" />
 	
-	<base target="_blank">
+	<!-- <base target="_blank"> -->
 	
+	<!-- photoswipe -->
+    <link rel="stylesheet" href="photoswipe/photoswipe.css">
+    <link rel="stylesheet" href="photoswipe/default-skin/default-skin.css">
+    <script src="photoswipe/photoswipe.min.js"></script>
+    <script src="photoswipe/photoswipe-ui-default.min.js"></script>
+		
 	<title>What Has Come Before</title>
 </head>
 
@@ -21,10 +27,10 @@
 	
 	<div class="divider"></div>
 	<div class="gallery">
-		<a href="./image/treecross.jpg"><img class="image-desktop image-mobile" src="./image/treecross.jpg" alt="screenshot-0"></a>
-		<a href="./image/TVcross.jpg"><img class="image-desktop image-mobile" src="./image/TVcross.jpg" alt="screenshot-1"></a>
-		<a href="./image/Hallcross.jpg"><img class="image-desktop image-mobile" src="./image/Hallcross.jpg" alt="screenshot-2"></a>
-		<a href="./image/Webcross.jpg"><img class="image-desktop image-mobile" src="./image/Webcross.jpg" alt="screenshot-3"></a>
+		<a href="./image/treecross.jpg" data-size="1920x1080"><img class="image-desktop image-mobile" src="./image/thumbnail/treecross_thumbnail.jpg" alt="thumbnail-0"></a>
+		<a href="./image/TVcross.jpg" data-size="1920x1080"><img class="image-desktop image-mobile" src="./image/thumbnail/TVcross_thumbnail.jpg" alt="thumbnail-1"></a>
+		<a href="./image/Hallcross.jpg" data-size="1920x1080"><img class="image-desktop image-mobile" src="./image/thumbnail/Hallcross_thumbnail.jpg" alt="thumbnail-2"></a>
+		<a href="./image/Webcross.jpg" data-size="1920x1080"><img class="image-desktop image-mobile" src="./image/thumbnail/Webcross_thumbnail.jpg" alt="thumbnail-3"></a>
 	</div>
 		
 	<div class="divider"></div>
@@ -81,6 +87,8 @@
 	<div class="footer">
 		<img class="logo" src="./image/WHCB_Logo_01.jpg" alt="WHCB Logo">
 	</div>
+	
+	<script src="photoswipe/my-photoswipe.js"></script> 
 </body>
 
 </html>
