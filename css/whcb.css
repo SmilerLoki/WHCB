@@ -50,57 +50,57 @@ img.logo {
 }
 
 .gallery {
-	max-width: 800px;	
-    margin: 0 auto;	
+	max-width: 850px;
+	margin: 0 auto;
 }
 .image-desktop {
-    max-width: 49.0%;
-    margin: .1rem .1rem .1rem .1rem;
+	max-width:49%;
+	margin: .1rem .1rem .1rem .1rem;
 }
 
 .about {
-	color: rgb(255, 255, 255);
+	color: rgb(248,248,255);
 	overflow: auto;
-    user-select: text;
+	user-select: text;
 	text-align: left;
-    max-width: 1024px;
-    margin: 0px auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+	max-width: 1024px;
+	margin: 0px auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 .about a {
-    color: rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
 }
 .about p {
-    margin: 0;
+	margin: 0;
 	text-align: justify;
-    font-size: 1.2rem;
-    line-height: 1.6;
+	font-size: 1.2rem;
+	line-height: 1.6;
 }
 .about h1, .about h2 {
-    font-family: ;
-    text-transform: uppercase;
-    line-height: 1.05;
-    color: ;
+	font-family: ;
+	text-transform: uppercase;
+	line-height: 1.05;
+	text-shadow: -.08em +.08em .1em rgb(65,74,76);
 }
 .float-left {
-    float: left;
-    position: relative;
-    width: 20%;
+	float: left;
+	position: relative;
+	width: 20%;
 }
 .float-middle {
-    float: right;
-    position: relative;
-    width: 55%;
+	float: right;
+	position: relative;
+	width: 55%;
 	//margin: 0 .5rem 0 .5rem;
 }
 .float-middle h1, .float-middle h2 {
 	text-align: center;
 }
 .float-right {
-    float: right;
-    position: relative;
-    width: 20%;
+	float: right;
+	position: relative;
+	width: 20%;
 	text-align: right;
 }
 .float-right p {
@@ -109,14 +109,14 @@ img.logo {
 
 /* stack instead of doing grid on mobile */
 @media(max-width:48em) {
-    .image-mobile {
-        max-width: 100%;
-        margin: 0 0 1rem 0;    	
-    }
-    .text-mobile {
-        position: relative;
-        width: 100%;
-    }
+	.image-mobile {
+		max-width: 100%;
+		margin: 0 0 1rem 0;		
+	}
+	.text-mobile {
+		position: relative;
+		width: 100%;
+	}
 	.text-mobile h1, .text-mobile h2, .text-mobile p {
 		text-align: center;		
 	}
